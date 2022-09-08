@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/telaadicionar.css">
+    
+    <title>Aula 10</title>
+</head>
+
+<body>
+
+    <div class="descontos"> <span> Descontos de 20% </span></div>
+
+    <header>
+        <h1> Super-heróis</h1>
+    </header>
+
+    <main>
+
+        <section>
+
+            <h1> Adicionar seu super-herói</h1>
+            <p> Adicione seu personagem favorito completando as informações </p>
+
+            <form class="formulario" action="index.html">
+
+                <div>
+                    <label for="nome"> Nome: </label> 
+                    <input type="text" class="nome" id="nome">
+                    <label for="especie"> Espécie: </label>
+                    <select name="especie" id="especie" >
+                        <option value="Brasil"> Brasil </option>
+                        <option value="Italia"> Italia </option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="nascimento"> Data de Nascimento: </label> 
+                    <input type="date" class="nascimento" id="nascimento">
+                    <label for="foto"> Adicionar Foto:  </label> 
+                    <input type="file" class="foto" id="foto">
+                </div>
+
+                <div class="div3">
+                    <textarea name="descricao" id="descricao" cols="30" rows="10"> Descrição </textarea>
+                   
+                    <div class="div4">
+                        <label for=""> Poderes </label>
+                        <input type="checkbox" name="poderes" value="Voar"> <label> Voar </label>
+                        <input type="checkbox" name="poderes" value="Super Inteligência"> <label> Super Inteligência </label>
+                        <input type="checkbox" name="poderes" value="Vista de raio laser"> <label> Vista de raio laser </label>
+                        <input type="checkbox" name="poderes" value="Super Rico"> <label> Super Rico </label>
+    
+                        <label for="tipo"> Tipo de Personagem </label>
+                        <input type="radio" name="tipo" id="tipo" value="Herói"> <label> Herói </label>
+                        <input type="radio" name="tipo" id="tipo" value="Vilão"> <label> Vilão </label>
+                    </div>
+
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer> 
+        <p> Todos os direitos reservados a Front-end I </p>
+    </footer>
+
+</body>
+
+</html>
