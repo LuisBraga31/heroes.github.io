@@ -1,16 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
 section {
     background-color: #00669F;
-    border-radius: 100px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    
+    width: 700px;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 700;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 20px;
+    font-weight: 300;
+    
+}
+
+.linha {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+
+}
+
+.labelclass {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.labelclass > input, select  {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
-.div3 {
-   display: flex;
-   
+.options > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;    
+}
+
+.options > div > div {
+    display: flex;
+    gap: 10px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+
+    background-color: #1CD1B0;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    cursor: pointer;
 }
